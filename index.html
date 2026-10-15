@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Learning Management Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark">U</span>
+        <div>
+          <h1>University Learning Portal</h1>
+          <p>School of Computer Science &amp; Engineering</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#resources">Resources</a>
+        <a href="#announcements">Announcements</a>
+        <a href="#exams">Exams</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Fall Semester 2026</p>
+      <h2>Everything you need for the semester, in one place.</h2>
+      <p class="lead">Course details, faculty contacts, study material, assignment deadlines and examination schedules.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="courses" class="section">
+      <h2 class="section-title">Course Information</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">ISWE406P</span>
+          <h3>Agile Development Process &amp; DevOps</h3>
+          <p>Scrum, Kanban, CI/CD pipelines, containerisation and Kubernetes orchestration.</p>
+          <ul class="meta"><li>Credits: 4</li><li>Slot: L19+L20</li></ul>
+        </article>
+        <article class="card">
+          <span class="tag">ISWE301L</span>
+          <h3>Software Architecture</h3>
+          <p>Architectural styles, quality attributes, design patterns and microservices.</p>
+          <ul class="meta"><li>Credits: 3</li><li>Slot: A1+TA1</li></ul>
+        </article>
+        <article class="card">
+          <span class="tag">ISWE305L</span>
+          <h3>Cloud Computing</h3>
+          <p>Virtualisation, IaaS/PaaS/SaaS models, cloud storage and serverless computing.</p>
+          <ul class="meta"><li>Credits: 3</li><li>Slot: B1+TB1</li></ul>
+        </article>
+        <article class="card">
+          <span class="tag">ISWE308L</span>
+          <h3>Software Testing</h3>
+          <p>Test design techniques, automation frameworks and security testing.</p>
+          <ul class="meta"><li>Credits: 3</li><li>Slot: C1+TC1</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="faculty" class="section">
+      <h2 class="section-title">Faculty Profiles</h2>
+      <div class="grid">
+        <article class="card profile">
+          <div class="avatar">AK</div>
+          <h3>Dr. Anitha Krishnan</h3>
+          <p class="role">Professor, DevOps &amp; Cloud</p>
+          <p>Ph.D. (IIT Madras) &middot; 18 years of experience</p>
+          <p class="contact">anitha.k@university.edu &middot; SJT 412</p>
+        </article>
+        <article class="card profile">
+          <div class="avatar">RM</div>
+          <h3>Dr. Rahul Menon</h3>
+          <p class="role">Associate Professor, Software Architecture</p>
+          <p>Ph.D. (IISc Bangalore) &middot; 12 years of experience</p>
+          <p class="contact">rahul.m@university.edu &middot; SJT 305</p>
+        </article>
+        <article class="card profile">
+          <div class="avatar">SP</div>
+          <h3>Dr. Sneha Patel</h3>
+          <p class="role">Assistant Professor, Software Testing</p>
+          <p>Ph.D. (NIT Trichy) &middot; 8 years of experience</p>
+          <p class="contact">sneha.p@university.edu &middot; SJT 218</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="resources" class="section">
+      <h2 class="section-title">Learning Resources</h2>
+      <ul class="resource-list">
+        <li><span class="type">PDF</span>Module 4 &ndash; Continuous Integration with Jenkins<span class="size">2.4 MB</span></li>
+        <li><span class="type">Video</span>Docker Fundamentals Lecture Recording<span class="size">48 min</span></li>
+        <li><span class="type">Lab</span>Kubernetes Deployments &amp; Services Lab Manual<span class="size">1.1 MB</span></li>
+        <li><span class="type">Slides</span>Software Architecture &ndash; Microservices Patterns<span class="size">3.7 MB</span></li>
+        <li><span class="type">Link</span>Kubernetes Official Documentation<span class="size">External</span></li>
+      </ul>
+    </section>
+
+    <section id="announcements" class="section">
+      <h2 class="section-title">Assignment Announcements</h2>
+      <div class="announcements">
+        <article class="notice">
+          <div class="notice-date"><span>22</span>Oct</div>
+          <div>
+            <h3>DevOps Assignment 3 &ndash; CI/CD Pipeline</h3>
+            <p>Build a Jenkins pipeline that deploys a containerised application to Kubernetes. Submit the repository link on the LMS.</p>
+          </div>
+        </article>
+        <article class="notice">
+          <div class="notice-date"><span>28</span>Oct</div>
+          <div>
+            <h3>Software Architecture &ndash; Case Study Report</h3>
+            <p>Analyse the architecture of an open-source system and document its quality attribute trade-offs.</p>
+          </div>
+        </article>
+        <article class="notice">
+          <div class="notice-date"><span>04</span>Nov</div>
+          <div>
+            <h3>Cloud Computing &ndash; Mini Project Review</h3>
+            <p>Present your serverless application with an architecture diagram and cost estimate.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="exams" class="section">
+      <h2 class="section-title">Examination Schedule</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Date</th><th>Course Code</th><th>Course</th><th>Session</th><th>Venue</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>17 Nov 2026</td><td>ISWE406P</td><td>Agile Development Process &amp; DevOps</td><td>FN (09:30 &ndash; 12:30)</td><td>SJT 101</td></tr>
+            <tr><td>19 Nov 2026</td><td>ISWE301L</td><td>Software Architecture</td><td>AN (14:00 &ndash; 17:00)</td><td>TT 204</td></tr>
+            <tr><td>21 Nov 2026</td><td>ISWE305L</td><td>Cloud Computing</td><td>FN (09:30 &ndash; 12:30)</td><td>SJT 303</td></tr>
+            <tr><td>24 Nov 2026</td><td>ISWE308L</td><td>Software Testing</td><td>AN (14:00 &ndash; 17:00)</td><td>MB 112</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 University Learning Management Portal</p>
+      <p>Release: <span id="release">dev</span></p>
+    </div>
+  </footer>
+
+  <script>
+    fetch('version.txt')
+      .then(function (r) { return r.ok ? r.text() : 'dev'; })
+      .then(function (v) { document.getElementById('release').textContent = v.trim(); })
+      .catch(function () {});
+  </script>
+</body>
+</html>
