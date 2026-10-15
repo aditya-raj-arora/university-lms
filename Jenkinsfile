@@ -13,11 +13,11 @@ pipeline {
 
     environment {
         APP_NAME       = 'university-lms'
-        IMAGE_REPO     = 'YOUR_DOCKERHUB_USERNAME/university-lms'
+        IMAGE_REPO     = 'adityarajarora123/university-lms'
         IMAGE_TAG      = "v1.0.${env.BUILD_NUMBER}"
         TEST_CONTAINER = "university-lms-test-${env.BUILD_NUMBER}"
         NODE_PORT      = '30081'
-        DOCKERHUB      = credentials('dockerhub-creds')
+        DOCKERHUB      = credentials('dockerhub')
         KUBECONFIG     = credentials('kubeconfig')
     }
 
