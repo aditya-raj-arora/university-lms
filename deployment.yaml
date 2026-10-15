@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: university-lms
-          image: YOUR_DOCKERHUB_USERNAME/university-lms:latest
+          image: adityarajarora123/university-lms:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
