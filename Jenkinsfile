@@ -16,7 +16,7 @@ pipeline {
         IMAGE_REPO     = 'adityarajarora123/university-lms'
         IMAGE_TAG      = "v1.0.${env.BUILD_NUMBER}"
         TEST_CONTAINER = "university-lms-test-${env.BUILD_NUMBER}"
-        NODE_PORT      = '30081'
+        NODE_PORT      = '30091'
         DOCKERHUB      = credentials('dockerhub')
         KUBECONFIG     = credentials('kubeconfig')
     }
